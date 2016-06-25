@@ -2,7 +2,7 @@
 
 Go to the folder /twitstream
 
-Insert your own twitter API key in app.js Save and then type run this:
+Insert your own twitter API key in app.js Save and then type run this in terminal:
 
 $ node app.js
 
