@@ -1,0 +1,17 @@
+{
+  "name": "twitstream",
+  "version": "1.0.0",
+  "description": "using node.js and socket.io with twitter's streaming API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nikisae",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "socket.io": "^1.4.8",
+    "twitter": "^1.3.0"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Twitter Streaming</title>
+	
+</head>
+<body>
+
+	<ul class="tweet"></ul>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="/socket.io/socket.io.js"></script>
+	<script>
+	  var socket = io.connect();
+	  jQuery(function ($) {
+	    var tweetList = $('ul.tweet');
+	    socket.on('tweet', function (data) {
+	      tweetList
+	        .prepend('<li>' + data.user + ': ' + data.text + '</li>');
+	    });
+	  });
+	</script>
+	
+</body>
+</html>
