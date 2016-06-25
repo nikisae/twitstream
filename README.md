@@ -1,4 +1,4 @@
-# twitstreaming
+# twitstream
 Using nodejs and socketio with Twitter’s Streaming API
 
 Go to the folder /twitstreaming and then type this in terminal:
