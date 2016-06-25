@@ -10,4 +10,4 @@ Ctrl + C to stop
 
 # Twitter API key
 
-Go to api.twitter.com
+Go to apps.twitter.com
